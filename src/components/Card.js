@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import React from "react";
+import { Link } from "react-router-dom"; 
 
 // Définition d'un composant Card qui prend un paramètre "dataCard"
 const Card = ({ dataCard }) => {

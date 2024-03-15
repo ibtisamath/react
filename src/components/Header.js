@@ -6,23 +6,23 @@ const Header = () => {
   // Ce composant renvoie un header avec un logo et des liens de navigation
   return (
     <header>
-      <nav>
+      <nav>  
 
         <NavLink to="/">
           <img className="header-logo" src={Logo} alt="Logo Kasa" />
         </NavLink>
 
-        <ul className="header-links">
+        <div className="header-links">
 
-          <li className="header-link">
+          <p>
             <NavLink to="/">Accueil</NavLink>
-          </li>
+          </p>
 
-          <li className="header-link">
+          <p>
             <NavLink to="/about">À propos</NavLink>
-          </li>
+          </p>
 
-        </ul>
+        </div>
 
       </nav>
     </header>
