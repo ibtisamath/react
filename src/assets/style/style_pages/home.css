@@ -1,0 +1,17 @@
+.display-container{ 
+    padding: 25px 7vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vw;
+
+}
+
+
+@media screen and (max-width:768px) {
+  .home-text-img{
+    white-space: normal;
+    font-size: 4vw;
+  }
+}
